@@ -1,0 +1,20 @@
+Jun 28 17:10:05.979 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 28 17:10:05.979 HYPERVISOR: Started on IP = localhost, TCP port = 53068.
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\wexti\GNS3\projects\task2\project-files\dynamips 
+Jun 28 17:10:06.231 GENERAL: working_dir=C:\Users\wexti\GNS3\projects\task2\project-files\dynamips
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\wexti\GNS3\projects\task2\project-files\dynamips\0f396392-274a-4b2b-8a92-409c61cb2a8a 
+Jun 28 17:10:06.231 GENERAL: working_dir=C:\Users\wexti\GNS3\projects\task2\project-files\dynamips\0f396392-274a-4b2b-8a92-409c61cb2a8a
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Jun 28 17:10:06.231 VM: VM R1 created.
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jun 28 17:10:06.231 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jun 28 17:10:06.450 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jun 28 17:11:10.207 HYPERVISOR: exec_cmd: nio create_udp udp-91ca6af2-0ce2-40cc-889e-6f4aff5e55a4 10002 127.0.0.1 10003 
+Jun 28 17:11:10.584 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-91ca6af2-0ce2-40cc-889e-6f4aff5e55a4 
+Jun 28 17:11:10.584 HYPERVISOR: exec_cmd: vm get_status R1 

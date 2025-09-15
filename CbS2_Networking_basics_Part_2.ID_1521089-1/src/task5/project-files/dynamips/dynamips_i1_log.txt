@@ -1,0 +1,30 @@
+Jul 03 15:58:55.381 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 03 15:58:55.381 HYPERVISOR: Started on IP = localhost, TCP port = 50129.
+Jul 03 15:58:55.539 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 03 15:58:55.540 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\wexti\GNS3\projects\task5\project-files\dynamips 
+Jul 03 15:58:55.556 GENERAL: working_dir=C:\Users\wexti\GNS3\projects\task5\project-files\dynamips
+Jul 03 15:58:55.556 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\wexti\GNS3\projects\task5\project-files\dynamips\df4c8269-ee79-4f35-bb7c-224ebfd3118f 
+Jul 03 15:58:55.556 GENERAL: working_dir=C:\Users\wexti\GNS3\projects\task5\project-files\dynamips\df4c8269-ee79-4f35-bb7c-224ebfd3118f
+Jul 03 15:58:55.556 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Jul 03 15:58:55.556 VM: VM R1 created.
+Jul 03 15:58:55.556 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jul 03 15:58:55.556 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Jul 03 15:58:55.564 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jul 03 15:58:55.564 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jul 03 15:58:55.568 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Jul 03 15:58:55.569 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jul 03 15:58:55.571 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jul 03 15:58:55.662 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jul 03 15:59:45.477 HYPERVISOR: exec_cmd: nio create_udp udp-d059097d-bfac-4884-983b-7c7610608e33 10002 127.0.0.1 10003 
+Jul 03 15:59:45.762 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-d059097d-bfac-4884-983b-7c7610608e33 
+Jul 03 15:59:45.762 HYPERVISOR: exec_cmd: vm get_status R1 
+Jul 03 16:00:03.967 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Jul 03 16:00:03.967 HYPERVISOR: exec_cmd: vm set_ghost_file R1 C:\Users\wexti\GNS3\projects\task5\project-files\dynamips\c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Jul 03 16:00:03.967 HYPERVISOR: exec_cmd: vm get_status R1 
+Jul 03 16:00:03.978 HYPERVISOR: exec_cmd: vm set_config R1 configs\i1_startup-config.cfg 
+Jul 03 16:00:03.982 HYPERVISOR: exec_cmd: vm start R1 
+Jul 03 16:09:15.432 HYPERVISOR: exec_cmd: nio bind_filter udp-d059097d-bfac-4884-983b-7c7610608e33 2 capture 
+Jul 03 16:09:15.432 HYPERVISOR: exec_cmd: nio setup_filter udp-d059097d-bfac-4884-983b-7c7610608e33 2 en10mb C:\Users\wexti\GNS3\projects\task5\project-files\captures\R1_FastEthernet00_to_R2_FastEthernet00.pcap 
+Jul 03 16:10:56.789 HYPERVISOR: exec_cmd: nio unbind_filter udp-d059097d-bfac-4884-983b-7c7610608e33 2 
+Jul 03 16:15:34.707 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jul 03 16:15:34.743 HYPERVISOR: exec_cmd: vm extract_config R1 

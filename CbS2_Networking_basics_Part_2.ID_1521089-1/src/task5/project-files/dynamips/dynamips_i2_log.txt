@@ -1,0 +1,44 @@
+Jul 03 15:59:37.676 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jul 03 15:59:37.676 HYPERVISOR: Started on IP = localhost, TCP port = 50138.
+Jul 03 15:59:38.151 HYPERVISOR: exec_cmd: hypervisor version 
+Jul 03 15:59:38.151 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\wexti\GNS3\projects\task5\project-files\dynamips 
+Jul 03 15:59:38.151 GENERAL: working_dir=C:\Users\wexti\GNS3\projects\task5\project-files\dynamips
+Jul 03 15:59:38.151 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\wexti\GNS3\projects\task5\project-files\dynamips\e1889992-b2ef-4766-97f7-c4a3ff26050f 
+Jul 03 15:59:38.167 GENERAL: working_dir=C:\Users\wexti\GNS3\projects\task5\project-files\dynamips\e1889992-b2ef-4766-97f7-c4a3ff26050f
+Jul 03 15:59:38.167 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Jul 03 15:59:38.167 VM: VM R2 created.
+Jul 03 15:59:38.177 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Jul 03 15:59:38.177 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Jul 03 15:59:38.177 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jul 03 15:59:38.177 HYPERVISOR: exec_cmd: vm set_exec_area R2 64 
+Jul 03 15:59:38.183 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Jul 03 15:59:38.183 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Jul 03 15:59:38.183 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Jul 03 15:59:38.279 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jul 03 15:59:39.634 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jul 03 15:59:45.778 HYPERVISOR: exec_cmd: nio create_udp udp-4ed5f5e0-699f-4002-a100-7bff02938cf4 10004 127.0.0.1 10005 
+Jul 03 15:59:46.080 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-4ed5f5e0-699f-4002-a100-7bff02938cf4 
+Jul 03 15:59:46.080 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 03 16:00:03.257 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Jul 03 16:00:03.257 VM: VM Ghost created.
+Jul 03 16:00:03.262 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jul 03 16:00:03.264 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Jul 03 16:00:03.264 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\wexti\GNS3\projects\task5\project-files\dynamips\c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Jul 03 16:00:03.264 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Jul 03 16:00:03.264 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jul 03 16:00:03.264 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Jul 03 16:00:03.264 HYPERVISOR: exec_cmd: vm start Ghost 
+Jul 03 16:00:03.716 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Jul 03 16:00:03.716 HYPERVISOR: exec_cmd: vm stop Ghost 
+Jul 03 16:00:03.935 VM: VM Ghost shutdown.
+Jul 03 16:00:03.935 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Jul 03 16:00:03.935 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Jul 03 16:00:03.935 VM: VM Ghost destroyed.
+Jul 03 16:00:03.966 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jul 03 16:00:03.967 HYPERVISOR: exec_cmd: vm set_ghost_file R2 C:\Users\wexti\GNS3\projects\task5\project-files\dynamips\c3745-adventerprisek9-mz.124-25.image-256.ghost 
+Jul 03 16:00:03.967 HYPERVISOR: exec_cmd: vm get_status R2 
+Jul 03 16:00:03.967 HYPERVISOR: exec_cmd: vm set_config R2 configs\i2_startup-config.cfg 
+Jul 03 16:00:03.967 HYPERVISOR: exec_cmd: vm start R2 
+Jul 03 16:09:08.147 HYPERVISOR: exec_cmd: vm set_ios R2 C:/Users/wexti/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.image 
+Jul 03 16:15:34.708 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jul 03 16:15:34.743 HYPERVISOR: exec_cmd: vm extract_config R2 

@@ -1,0 +1,5 @@
+1. Протокол 4 уровня: UDP
+   Source port: 123
+   Destination port: 123
+
+2. Transmit Timestamp: Mar  1, 2002 00:01:30.237901963 UTC

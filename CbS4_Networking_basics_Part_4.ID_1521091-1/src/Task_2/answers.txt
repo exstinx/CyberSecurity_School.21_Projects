@@ -1,0 +1,22 @@
+1. IP инициатора reverse shell: 192.168.1.101  
+2. IP атакующего: 192.168.1.100  
+3. Протокол: TCP  
+
+4. Команды:
+	d
+	esult of: id
+	ame -a
+	ame -a
+	etc
+	etc
+	sswd
+	sswd
+
+Наиболее вероятная расшифровка:
+	- id
+	- uname -a
+	- uname -a
+	- ls /etc
+	- ls /etc
+	- cat /etc/passwd
+	- cat /etc/passwd

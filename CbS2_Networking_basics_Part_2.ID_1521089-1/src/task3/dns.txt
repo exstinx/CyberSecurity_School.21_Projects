@@ -1,0 +1,1 @@
+my.site: type A, class IN
